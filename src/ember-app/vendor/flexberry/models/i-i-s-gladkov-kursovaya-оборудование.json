@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISGladkov_KursovayaОборудование",
+  "modelName": "i-i-s-gladkov-kursovaya-оборудование",
+  "className": "Оборудование",
+  "nameSpace": "IIS.Gladkov_Kursovaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "iD",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "состояние",
+      "type": "i-i-s-gladkov-kursovaya-состояние",
+      "flexberryType": "Состояние",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОборудованиеE",
+      "modelName": "i-i-s-gladkov-kursovaya-оборудование",
+      "attrs": [
+        {
+          "name": "iD",
+          "caption": "ID",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "состояние",
+          "caption": "Состояние",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОборудованиеL",
+      "modelName": "i-i-s-gladkov-kursovaya-оборудование",
+      "attrs": [
+        {
+          "name": "iD",
+          "caption": "ID",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "состояние",
+          "caption": "Состояние",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

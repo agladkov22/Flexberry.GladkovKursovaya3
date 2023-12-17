@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISGladkov_KursovayaСклады",
+  "modelName": "i-i-s-gladkov-kursovaya-склады",
+  "className": "Склады",
+  "nameSpace": "IIS.Gladkov_Kursovaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "iD",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СкладыE",
+      "modelName": "i-i-s-gladkov-kursovaya-склады",
+      "attrs": [
+        {
+          "name": "iD",
+          "caption": "ID",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СкладыL",
+      "modelName": "i-i-s-gladkov-kursovaya-склады",
+      "attrs": [
+        {
+          "name": "iD",
+          "caption": "ID",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

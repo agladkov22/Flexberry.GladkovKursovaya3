@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Склады",
+      "projection": "СкладыL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Материалы",
+  "name": "IISGladkov_KursovayaМатериалыE",
+  "className": "МатериалыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-gladkov-kursovaya-материалы",
+      "modelProjection": "МатериалыE"
+    }
+  ]
+}

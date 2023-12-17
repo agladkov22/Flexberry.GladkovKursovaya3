@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Оборудование",
+  "name": "IISGladkov_KursovayaОборудованиеE",
+  "className": "ОборудованиеE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-gladkov-kursovaya-оборудование",
+      "modelProjection": "ОборудованиеE"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Заявки",
+      "projection": "ЗаявкиL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Чертежи",
+  "name": "IISGladkov_KursovayaЧертежиE",
+  "className": "ЧертежиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-gladkov-kursovaya-чертежи",
+      "modelProjection": "ЧертежиE"
+    }
+  ]
+}

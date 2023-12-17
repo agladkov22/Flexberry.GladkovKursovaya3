@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Клиенты",
+      "projection": "КлиентыL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Материалы",
+      "projection": "МатериалыL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Заявки",
+  "name": "IISGladkov_KursovayaЗаявкиE",
+  "className": "ЗаявкиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-gladkov-kursovaya-заявки",
+      "modelProjection": "ЗаявкиE"
+    }
+  ]
+}

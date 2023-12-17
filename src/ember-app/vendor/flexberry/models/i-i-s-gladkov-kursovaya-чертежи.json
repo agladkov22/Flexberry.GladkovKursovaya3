@@ -1,0 +1,104 @@
+﻿{
+  "name": "IISGladkov_KursovayaЧертежи",
+  "modelName": "i-i-s-gladkov-kursovaya-чертежи",
+  "className": "Чертежи",
+  "nameSpace": "IIS.Gladkov_Kursovaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "датаСоздания",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерЧертежа",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "утверждение",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "заявки",
+      "relatedTo": "i-i-s-gladkov-kursovaya-заявки",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЧертежиE",
+      "modelName": "i-i-s-gladkov-kursovaya-чертежи",
+      "attrs": [
+        {
+          "name": "номерЧертежа",
+          "caption": "Номер чертежа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаСоздания",
+          "caption": "Дата создания",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "утверждение",
+          "caption": "Утверждение",
+          "hidden": false,
+          "index": 5
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ЧертежиL",
+      "modelName": "i-i-s-gladkov-kursovaya-чертежи",
+      "attrs": [
+        {
+          "name": "номерЧертежа",
+          "caption": "Номер чертежа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаСоздания",
+          "caption": "Дата создания",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "утверждение",
+          "caption": "Утверждение",
+          "hidden": false,
+          "index": 4
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

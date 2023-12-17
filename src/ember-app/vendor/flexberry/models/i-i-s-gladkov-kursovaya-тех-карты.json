@@ -1,0 +1,89 @@
+﻿{
+  "name": "IISGladkov_KursovayaТехКарты",
+  "modelName": "i-i-s-gladkov-kursovaya-тех-карты",
+  "className": "ТехКарты",
+  "nameSpace": "IIS.Gladkov_Kursovaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерКарты",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "тчТехКарты",
+      "relatedTo": "i-i-s-gladkov-kursovaya-тч-тех-карты",
+      "inverse": "техКарты"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ТехКартыE",
+      "modelName": "i-i-s-gladkov-kursovaya-тех-карты",
+      "attrs": [
+        {
+          "name": "номерКарты",
+          "caption": "Номер карты",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ТчТехКартыE",
+          "caption": "Тч тех карты",
+          "name": "тчТехКарты",
+          "relatedTo": "i-i-s-gladkov-kursovaya-тч-тех-карты",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ТехКартыL",
+      "modelName": "i-i-s-gladkov-kursovaya-тех-карты",
+      "attrs": [
+        {
+          "name": "номерКарты",
+          "caption": "Номер карты",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

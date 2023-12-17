@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "Gladkov_ kursovaya",
+  "applicationTitle": "Gladkov_ kursovaya",
+  "items": [
+    {
+      "link": null,
+      "menuName": "gladkov-kursovaya",
+      "caption": "Gladkov_Kursovaya",
+      "title": "Gladkov_Kursovaya",
+      "children": [
+        {
+          "link": "i-i-s-gladkov-kursovaya-склады-l",
+          "menuName": null,
+          "caption": "Склады",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-gladkov-kursovaya-оборудование-l",
+          "menuName": null,
+          "caption": "Оборудование",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-gladkov-kursovaya-чертежи-l",
+          "menuName": null,
+          "caption": "Чертежи",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-gladkov-kursovaya-клиенты-l",
+          "menuName": null,
+          "caption": "Клиенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-gladkov-kursovaya-материалы-l",
+          "menuName": null,
+          "caption": "Материалы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-gladkov-kursovaya-тех-карты-l",
+          "menuName": null,
+          "caption": "Тех карты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-gladkov-kursovaya-заявки-l",
+          "menuName": null,
+          "caption": "Заявки",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

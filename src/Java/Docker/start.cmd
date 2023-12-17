@@ -1,0 +1,1 @@
+docker-compose -p gladkov_kursovaya-java up -d

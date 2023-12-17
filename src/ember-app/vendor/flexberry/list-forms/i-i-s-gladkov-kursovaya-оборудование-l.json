@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-gladkov-kursovaya-оборудование-e",
+  "editForm": "i-i-s-gladkov-kursovaya-оборудование-e",
+  "external": false,
+  "caption": "Оборудование",
+  "name": "IISGladkov_KursovayaОборудованиеL",
+  "className": "ОборудованиеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-gladkov-kursovaya-оборудование",
+      "modelProjection": "ОборудованиеL"
+    }
+  ]
+}

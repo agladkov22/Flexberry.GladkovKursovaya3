@@ -1,0 +1,116 @@
+﻿{
+  "name": "IISGladkov_KursovayaТчТехКарты",
+  "modelName": "i-i-s-gladkov-kursovaya-тч-тех-карты",
+  "className": "ТчТехКарты",
+  "nameSpace": "IIS.Gladkov_Kursovaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "заявки",
+      "relatedTo": "i-i-s-gladkov-kursovaya-заявки",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "оборудование",
+      "relatedTo": "i-i-s-gladkov-kursovaya-оборудование",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "чертежи",
+      "relatedTo": "i-i-s-gladkov-kursovaya-чертежи",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "техКарты",
+      "relatedTo": "i-i-s-gladkov-kursovaya-тех-карты",
+      "inverse": "тчТехКарты"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТчТехКартыE",
+      "modelName": "i-i-s-gladkov-kursovaya-тч-тех-карты",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "НаименДетали",
+          "lookupValueField": "наименДетали",
+          "relationName": "Заявки",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименДетали",
+              "caption": "Наимен детали",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Заявки",
+          "name": "заявки",
+          "relatedTo": "i-i-s-gladkov-kursovaya-заявки",
+          "inverse": null
+        },
+        {
+          "lookupValue": "НомерЧертежа",
+          "lookupValueField": "номерЧертежа",
+          "relationName": "Чертежи",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерЧертежа",
+              "caption": "Номер чертежа",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Чертежи",
+          "name": "чертежи",
+          "relatedTo": "i-i-s-gladkov-kursovaya-чертежи",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Оборудование",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 5
+            }
+          ],
+          "index": 4,
+          "type": "standard",
+          "caption": "Оборудование",
+          "name": "оборудование",
+          "relatedTo": "i-i-s-gladkov-kursovaya-оборудование",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

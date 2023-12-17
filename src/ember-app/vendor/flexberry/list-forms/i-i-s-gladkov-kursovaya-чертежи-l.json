@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-gladkov-kursovaya-чертежи-e",
+  "editForm": "i-i-s-gladkov-kursovaya-чертежи-e",
+  "external": false,
+  "caption": "Чертежи",
+  "name": "IISGladkov_KursovayaЧертежиL",
+  "className": "ЧертежиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-gladkov-kursovaya-чертежи",
+      "modelProjection": "ЧертежиL"
+    }
+  ]
+}
